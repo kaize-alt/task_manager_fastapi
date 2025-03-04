@@ -1,0 +1,47 @@
+# Игнорируем виртуальное окружение
+.venv/
+venv/
+
+# Игнорируем файлы среды разработки
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PyCharm
+.idea/
+
+# Игнорируем зависимости (если используешь venv)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Файлы среды
+.env
+.env.local
+*.secrets
+
+# Логи и отладочные файлы
+logs/
+*.log
+debug.log
+nohup.out
+
+# Кеши и временные файлы
+*.sqlite3
+*.db
+*.pid
+*.tmp
+*.bak
+
+# Файлы Docker
+docker-compose.override.yml
+
+# Alembic миграции (сгенерированные файлы)
+migrations/versions/*.pyc
+migrations/versions/*.py~
+
+# Файлы OS
+.DS_Store
+Thumbs.db
